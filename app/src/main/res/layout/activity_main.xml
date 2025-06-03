@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+<<<<<<< HEAD
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F9F9F9">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Escolha um profissional"
+        android:textSize="24sp"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnProf1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="🔧 Mecânico"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="Botão para escolher Mecânico"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnProf2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="💡 Eletricista"
+        android:backgroundTint="@color/colorSecondary"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Botão para escolher Eletricista"
+        app:layout_constraintTop_toBottomOf="@id/btnProf1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnProf3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="🚰 Encanador"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Botão para escolher Encanador"
+        app:layout_constraintTop_toBottomOf="@id/btnProf2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnProf4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="🧱 Pedreiro"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Botão para escolher Pedreiro"
+        app:layout_constraintTop_toBottomOf="@id/btnProf3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+=======
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -112,5 +192,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.281"
         app:srcCompat="@drawable/android_logo" />
+>>>>>>> caique/main
 
 </androidx.constraintlayout.widget.ConstraintLayout>
