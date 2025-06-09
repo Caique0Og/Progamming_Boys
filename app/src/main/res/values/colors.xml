@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 <resources>
     <color name="colorPrimary">#1976D2</color>       <!-- Azul Mecânico -->
     <color name="colorSecondary">#388E3C</color>     <!-- Verde Eletricista -->
     <color name="colorAccent">#F57C00</color>        <!-- Laranja Encanador -->
     <color name="purple_700">#7B1FA2</color>         <!-- Roxo Pedreiro -->
 </resources>
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-</resources>
->>>>>>> caique/main
